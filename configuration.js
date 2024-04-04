@@ -4,7 +4,7 @@ const host_local = "http://localhost:8080";
 const host_remote = "https://duck-service.onrender.com";
 
 function getHost() {
-    return (mode == 0) ? host_local : host_remote;
+    return host_remote;
 }
 
 function isLoggedIn(){
