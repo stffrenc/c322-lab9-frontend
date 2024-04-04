@@ -53,7 +53,7 @@ async function login(){
     let password = document.getElementById("password").value;
     let customer = {username: username, password: password}
     let request = {
-        method = "POST",
+        method : "POST",
         headers : {
             "Content-Type": "application/json"
         },
